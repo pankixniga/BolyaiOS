@@ -3,33 +3,37 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        int selection;
 
-        Scanner sc = new Scanner(System.in);
+            int selection;
 
-        do {
-            System.out.println("Valaszd ki a szamot!");
-            System.out.println("1 - HELLO WORLD");
-            System.out.println("2 - INFO");
-            System.out.println("3 - Exit");
-            System.out.println("4 - HELP");
+            Scanner sc = new Scanner(System.in);
 
-            selection = sc.nextInt();
+            do {
+                System.out.println("Valaszd ki a szamot!");
+                System.out.println("1 - HELLO WORLD");
+                System.out.println("2 - INFO");
+                System.out.println("3 - Exit");
+                System.out.println("4 - HELP");
 
-            switch(selection) {
-                case 1:
-                    System.out.println("Hello World!!!!!");
-                    break;
-                case 2:
-                    System.out.println("Bolyai OS v1");
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    System.out.println("Parancsok: Exit, Info, Help, Hello World");
-                    break;
+                selection = sc.nextInt();
+
+                switch (selection) {
+                    case 1:
+                        System.out.println("Hello World!!!!!");
+                        break;
+                    case 2:
+                        System.out.println("Bolyai OS v1");
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        System.out.println("Parancsok: Exit, Info, Help, Hello World");
+                        break;
+                }
             }
-        }
-        while(selection != 3);
+            while (selection != 3);
+
+
+
     }
 }
