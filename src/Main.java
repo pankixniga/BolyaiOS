@@ -22,7 +22,7 @@ public class Main {
                         System.out.println("Hello World!!!!!");
                         break;
                     case 2:
-                        System.out.println("Bolyai OS v1");
+                        System.out.println("Bolyai OS v2");
                         break;
                     case 3:
                         break;
